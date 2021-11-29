@@ -77,3 +77,60 @@
     }
 
 }
+
+
+@media (width:480px) {
+    .login-title {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    form {
+        width: 430px;
+    }
+
+    .login-info {
+        height: 60vh;
+    }
+
+    .login-info::after {
+        display: none;
+    }
+
+    .login-info::before {
+        display: none;
+    }
+
+    .login-title {
+        clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    }
+
+}
+
+@media (width:320px) {
+    .login-title {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    form {
+        width: auto;
+    }
+
+    .login-info {
+        height: 60vh;
+    }
+
+    .login-info::after {
+        display: none;
+    }
+
+    .login-info::before {
+        display: none;
+    }
+
+    .login-title {
+        clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    }
+
+}
